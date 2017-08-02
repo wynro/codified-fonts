@@ -11,8 +11,8 @@ import fontforge
 from os import remove
 
 
-FONT_NAME = "Codified-atbash"
-FAMILY_NAME = "Codified"
+FONT_NAME = "CodifiedAtbash-Regular"
+FAMILY_NAME = "CodifiedAtbash"
 FULLNAME = FONT_NAME
 VERSION = "0.1"
 COPYRIGHT = "Font based in Carlito, by tyPoland Lukasz Dziedzic. Licensed under the SIL Open Font License, Version 1.1"
