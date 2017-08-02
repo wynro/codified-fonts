@@ -78,6 +78,7 @@ def generate_font(from_font,
 
     temporal.close()
 
+    # Workaround for https://github.com/fontforge/fontforge/issues/3130
     myFont.generate(font_name + ".sfd")
     myFont.close()
     myFont = fontforge.open(font_name + ".sfd")
