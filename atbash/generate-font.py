@@ -2,7 +2,7 @@
 """
 Generate a codified font from another one.
 
-Based in the script by 
+Based in the script by jfmdev (https://github.com/jfmdev/TuringFonts)
 
 Author: Guillermo Robles
 """
