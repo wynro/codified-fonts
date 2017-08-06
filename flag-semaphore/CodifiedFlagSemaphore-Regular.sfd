@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1501794328
-ModificationTime: 1502041525
+ModificationTime: 1502047566
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: ISO8859-1
@@ -47,7 +48,7 @@ FitToEm: 0
 WinInfo: 0 27 10
 BeginPrivate: 0
 EndPrivate
-BeginChars: 256 66
+BeginChars: 256 68
 
 StartChar: R
 Encoding: 82 82 0
@@ -2018,7 +2019,7 @@ StartChar: period
 Encoding: 46 46 65
 Width: 1024
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2032,6 +2033,64 @@ SplineSet
  678 77 819 218 819 384 c 4
  819 550 678 691 512 691 c 4
  346 691 205 550 205 384 c 4
+EndSplineSet
+EndChar
+
+StartChar: hyphen
+Encoding: 45 45 66
+Width: 1024
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+128 384 m 0
+ 128 597 299 768 512 768 c 0
+ 725 768 896 597 896 384 c 0
+ 896 171 725 0 512 0 c 0
+ 299 0 128 171 128 384 c 0
+817 345 m 1
+ 512 345 l 1
+ 207 345 l 1
+ 227 196 359 77 512 77 c 0
+ 665 77 797 196 817 345 c 1
+817 422 m 1
+ 798 571 665 691 512 691 c 0
+ 359 691 226 571 207 422 c 1
+ 512 422 l 1
+ 817 422 l 1
+EndSplineSet
+EndChar
+
+StartChar: plus
+Encoding: 43 43 67
+Width: 1024
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+128 384 m 0
+ 128 597 299 768 512 768 c 0
+ 725 768 896 597 896 384 c 0
+ 896 171 725 0 512 0 c 0
+ 299 0 128 171 128 384 c 0
+474 79.4747955116 m 1
+ 474 345 l 1
+ 207.607294701 345 l 1
+ 225.86818994 208.974253188 337.85549225 97.2761178148 474 79.4747955116 c 1
+550 79.4747955116 m 1
+ 686.14450775 97.2761178148 798.13181006 208.974253188 816.392705299 345 c 1
+ 550 345 l 1
+ 550 79.4747955116 l 1
+474 688.525204488 m 1
+ 337.522013638 670.680278809 225.319721191 558.477986362 207.474795512 422 c 1
+ 474 422 l 1
+ 474 688.525204488 l 1
+550 688.525204488 m 1
+ 550 422 l 1
+ 816.525204488 422 l 1
+ 798.680278809 558.477986362 686.477986362 670.680278809 550 688.525204488 c 1
 EndSplineSet
 EndChar
 EndChars
