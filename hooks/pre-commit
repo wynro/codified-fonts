@@ -1,1 +1,22 @@
-../.git/hooks/pre-commit
+#!/bin/sh
+# Author: Guillermo Robles
+#
+# Checks if there are modified fonts, and exports them before commiting
+
+# TODO: Change this script to use `git status --porcelain`
+
+# Check if any of the files to be commited is an sfd file
+if git status -v | grep -q '^diff --git a\/\(.*\)\.sfd b\/\1\.sfd$'; then
+    # Get all the sfd paths
+    git status -v |
+        grep '^diff --git a\/\(.*\)\.sfd b\/\1\.sfd$' |
+        sed 's/diff --git a\/\(.*\) b\/\1/\1/' |
+        while read line; do
+            # Get the new filename
+            newname=$(echo ${line} | sed 's/.sfd$/.ttf/')
+            # Compile the sfd file into the corresponding ttf
+            fontforge -c 'fontforge.open(argv[1]).generate(argv[2])' "${line}" "${newname}"
+            # Add the newly compiled ttf to the stage
+            git add "${newname}"
+        done
+fi
