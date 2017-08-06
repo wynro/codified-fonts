@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1501794328
-ModificationTime: 1502041256
+ModificationTime: 1502041525
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,7 +36,6 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: ISO8859-1
@@ -48,7 +47,7 @@ FitToEm: 0
 WinInfo: 0 27 10
 BeginPrivate: 0
 EndPrivate
-BeginChars: 256 65
+BeginChars: 256 66
 
 StartChar: R
 Encoding: 82 82 0
@@ -2013,6 +2012,27 @@ SplineSet
  205 231 325 99 474 79 c 1
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: period
+Encoding: 46 46 65
+Width: 1024
+VWidth: 0
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+128 384 m 4
+ 128 597 299 768 512 768 c 4
+ 725 768 896 597 896 384 c 4
+ 896 171 725 0 512 0 c 4
+ 299 0 128 171 128 384 c 4
+205 384 m 4
+ 205 218 346 77 512 77 c 4
+ 678 77 819 218 819 384 c 4
+ 819 550 678 691 512 691 c 4
+ 346 691 205 550 205 384 c 4
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
