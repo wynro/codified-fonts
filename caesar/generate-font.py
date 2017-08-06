@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env fontforge
 """
 Generate a codified font from another one.
 
