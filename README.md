@@ -35,7 +35,7 @@ The spacing, ligature, and some other glyph characteristics are currently just c
 - [ ] ROT-N (For all N, not only 13)
 - [ ] Morse
 - [ ] NATO Phonetic Alphabet
-- [ ] Naval Semaphore
+- [x] Flag Semaphore (Only uppercase glyphs)
 
 And once I learn how to do colorized fonts
 - [ ] Naval letter flags
