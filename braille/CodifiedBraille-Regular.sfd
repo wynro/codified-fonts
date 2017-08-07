@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1502134560
-ModificationTime: 1502140371
+ModificationTime: 1502140903
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -48,7 +48,7 @@ FitToEm: 0
 WinInfo: 0 27 10
 BeginPrivate: 0
 EndPrivate
-BeginChars: 256 83
+BeginChars: 256 84
 
 StartChar: at
 Encoding: 64 64 0
@@ -4716,6 +4716,72 @@ SplineSet
 NamedP: "Excuse"
 EndSplineSet
 Comment: "We need to add something in the glyph, to prevent the +ACIA-unknown glyph+ACIA square to appear. I have decided to add a single, invisible point"
+EndChar
+
+StartChar: quotedbl
+Encoding: 34 34 83
+Width: 512
+VWidth: 0
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+289 38 m 0
+ 289 20 304 5 322 5 c 0
+ 340 5 355 20 355 38 c 0
+ 355 56 340 71 322 71 c 0
+ 304 71 289 56 289 38 c 0
+284 38 m 0
+ 284 59 301 76 322 76 c 0
+ 343 76 360 59 360 38 c 0
+ 360 17 343 0 322 0 c 0
+ 301 0 284 17 284 38 c 0
+152 38 m 0
+ 152 59 169 76 190 76 c 0
+ 211 76 228 59 228 38 c 0
+ 228 17 211 0 190 0 c 0
+ 169 0 152 17 152 38 c 0
+289 170 m 0
+ 289 152 304 137 322 137 c 0
+ 340 137 355 152 355 170 c 0
+ 355 188 340 204 322 204 c 0
+ 304 204 289 188 289 170 c 0
+284 170 m 0
+ 284 191 301 209 322 209 c 0
+ 343 209 360 191 360 170 c 0
+ 360 149 343 132 322 132 c 0
+ 301 132 284 149 284 170 c 0
+157 170 m 0
+ 157 152 172 137 190 137 c 0
+ 208 137 223 152 223 170 c 0
+ 223 188 208 204 190 204 c 0
+ 172 204 157 188 157 170 c 0
+152 170 m 0
+ 152 191 169 209 190 209 c 0
+ 211 209 228 191 228 170 c 0
+ 228 149 211 132 190 132 c 0
+ 169 132 152 149 152 170 c 0
+289 302 m 0
+ 289 284 304 269 322 269 c 0
+ 340 269 355 284 355 302 c 0
+ 355 320 340 335 322 335 c 0
+ 304 335 289 320 289 302 c 0
+284 302 m 0
+ 284 323 301 340 322 340 c 0
+ 343 340 360 323 360 302 c 0
+ 360 281 343 264 322 264 c 0
+ 301 264 284 281 284 302 c 0
+157 302 m 0
+ 157 284 172 269 190 269 c 0
+ 208 269 223 284 223 302 c 0
+ 223 320 208 335 190 335 c 0
+ 172 335 157 320 157 302 c 0
+152 302 m 0
+ 152 323 169 340 190 340 c 0
+ 211 340 228 323 228 302 c 0
+ 228 281 211 264 190 264 c 0
+ 169 264 152 281 152 302 c 0
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
