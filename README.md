@@ -36,7 +36,7 @@ The spacing, ligature, and some other glyph characteristics are currently just c
 - [ ] Morse
 - [ ] NATO Phonetic Alphabet
 - [x] Flag Semaphore
-- [ ] Braille
+- [x] Braille
 
 And once I learn how to do colorized fonts
 - [ ] Naval letter flags
