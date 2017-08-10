@@ -3,12 +3,12 @@ FontName: CodifiedFlagSemaphore-Regular
 FullName: Flag Semaphore
 FamilyName: CodifiedFlagSemaphore
 Weight: Regular
-Copyright: Copyright (c) 2017, Guillermo Robles, SIL Open Font License
+Copyright: Copyright (c) 2017, Guillermo Robles. Licensed under the SIL Open Font License, version 1.1
 UComments: "2017-8-3: Created with FontForge (http://fontforge.org)"
 Version: 0.1
 ItalicAngle: 0
-UnderlinePosition: -102.4
-UnderlineWidth: 51.2
+UnderlinePosition: -102
+UnderlineWidth: 51
 Ascent: 819
 Descent: 205
 InvalidEm: 0
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1501794328
-ModificationTime: 1502047566
+ModificationTime: 1502328221
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0

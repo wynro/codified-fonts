@@ -3,7 +3,7 @@ FontName: CodifiedPigpen-Regular
 FullName: CodifiedPigpen
 FamilyName: CodifiedPigpen
 Weight: Regular
-Copyright: Copyright (c) 2017, Guillermo Robles, SIL Open Font License, version 1.1
+Copyright: Copyright (c) 2017, Guillermo Robles. Licensed under the SIL Open Font License, version 1.1
 UComments: "2017-8-10: Created with FontForge (http://fontforge.org)"
 Version: 0.1
 ItalicAngle: 0
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1502318006
-ModificationTime: 1502327590
+ModificationTime: 1502328306
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: ISO8859-1

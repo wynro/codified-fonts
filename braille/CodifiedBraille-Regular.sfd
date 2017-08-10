@@ -3,12 +3,12 @@ FontName: CodifiedBraille-Regular
 FullName: Codified Braille
 FamilyName: CodifiedBraille
 Weight: Regular
-Copyright: Copyright (c) 2017, Guillermo Robles, SIL Open Font License
+Copyright: Copyright (c) 2017, Guillermo Robles. Licensed under the SIL Open Font License, version 1.1
 UComments: "2017-8-7: Created with FontForge (http://fontforge.org)"
 Version: 0.1
 ItalicAngle: 0
-UnderlinePosition: -51.2
-UnderlineWidth: 25.6
+UnderlinePosition: -51
+UnderlineWidth: 25
 Ascent: 410
 Descent: 102
 InvalidEm: 0
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1502134560
-ModificationTime: 1502140903
+ModificationTime: 1502328133
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -4722,7 +4722,7 @@ StartChar: quotedbl
 Encoding: 34 34 83
 Width: 512
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet

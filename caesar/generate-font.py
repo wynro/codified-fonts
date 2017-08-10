@@ -32,7 +32,7 @@ FONT_NAME = "CodifiedCaesar-Regular"
 FAMILY_NAME = "CodifiedCaesar"
 FULLNAME = FONT_NAME
 VERSION = "0.1"
-COPYRIGHT = "Font based in Carlito, by tyPoland Lukasz Dziedzic. Licensed under the SIL Open Font License, Version 1.1"
+COPYRIGHT = "Font based in Carlito, by tyPoland Lukasz Dziedzic. Licensed under the SIL Open Font License, version 1.1"
 
 
 def transformate(character):
