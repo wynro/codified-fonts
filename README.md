@@ -39,6 +39,7 @@ The spacing, ligature, and some other glyph characteristics are currently just c
 - [x] Braille
 - [x] International Maritime Signal Flag (in Black and White)
 - [x] Pigpen
+- [x] Templar
 
 And once I learn how to do colorized fonts
 - [ ] International Maritime Signal Flag
