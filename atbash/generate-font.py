@@ -102,7 +102,6 @@ def generate_font(from_font,
     myFont.generate(font_name + ".ttf")
     myFont.close()
 
-    remove(font_name + ".sfd")
     remove(font_name + ".afm")
 
 
