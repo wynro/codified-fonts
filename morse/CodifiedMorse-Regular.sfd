@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1502546467
-ModificationTime: 1502566333
+ModificationTime: 1503426620
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: ISO8859-1
@@ -51,7 +52,7 @@ Grid
 -50 500 m 0
  50 500 l 1024
 EndSplineSet
-BeginChars: 256 69
+BeginChars: 256 70
 
 StartChar: A
 Encoding: 65 65 0
@@ -2439,6 +2440,14 @@ SplineSet
  945 300 900 345 900 400 c 0
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: hyphen
+Encoding: 45 45 69
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont
