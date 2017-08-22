@@ -34,7 +34,7 @@ The spacing, ligature, and some other glyph characteristics are currently just c
 - [x] Caesar (With alignment problems)
 - [ ] ROT-N (For all N, not only 13)
 - [x] Morse
-- [ ] NATO Phonetic Alphabet
+- [x] NATO Phonetic Alphabet
 - [x] Flag Semaphore
 - [x] Braille
 - [x] International Maritime Signal Flag (in Black and White)
