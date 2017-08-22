@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1502318006
-ModificationTime: 1503433525
+ModificationTime: 1503434101
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -466,15 +466,14 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-421 235 m 5
- 456 200 l 1
- 256 0 l 1
- 56 200 l 1
- 91 235 l 1
- 256 71 l 1
- 421 235 l 5
+421 322 m 1
+ 456 287 l 1
+ 256 87 l 5
+ 56 287 l 1
+ 91 322 l 1
+ 256 158 l 1
+ 421 322 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: T
@@ -485,32 +484,31 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-121 365 m 1
- 156 400 l 1
- 356 200 l 1
- 156 0 l 1
- 121 35 l 1
- 285 200 l 1
- 121 365 l 1
+173 365 m 1
+ 208 400 l 1
+ 408 200 l 5
+ 208 0 l 1
+ 173 35 l 1
+ 337 200 l 1
+ 173 365 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: U
 Encoding: 85 85 20
 Width: 512
 VWidth: 0
-Flags: HO
+Flags: H
 LayerCount: 2
 Fore
 SplineSet
-56 200 m 25
- 256 400 l 25
- 291 365 l 25
- 127 200 l 25
- 291 35 l 25
- 256 0 l 25
- 56 200 l 25
+174 200 m 25
+ 374 400 l 25
+ 409 365 l 25
+ 245 200 l 25
+ 409 35 l 25
+ 374 0 l 25
+ 174 200 l 25
 EndSplineSet
 EndChar
 
@@ -522,15 +520,14 @@ Flags: H
 LayerCount: 2
 Fore
 SplineSet
-56 200 m 1
- 256 400 l 25
- 456 200 l 1
- 421 165 l 25
- 256 329 l 1
- 91 165 l 25
- 56 200 l 1
+56 122 m 5
+ 256 322 l 29
+ 456 122 l 5
+ 421 87 l 29
+ 256 251 l 5
+ 91 87 l 29
+ 56 122 l 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: W
@@ -565,20 +562,19 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-250 200 m 1
- 180 130 l 1
- 110 200 l 1
- 180 270 l 1
- 250 200 l 1
-121 365 m 1
- 156 400 l 1
- 356 200 l 1
- 156 0 l 1
- 121 35 l 1
- 285 200 l 1
- 121 365 l 1
+302 200 m 1
+ 232 130 l 1
+ 162 200 l 1
+ 232 270 l 1
+ 302 200 l 1
+173 365 m 1
+ 208 400 l 1
+ 408 200 l 1
+ 208 0 l 1
+ 173 35 l 1
+ 337 200 l 1
+ 173 365 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Y
@@ -1046,15 +1042,14 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-421 235 m 5
- 456 200 l 1
- 256 0 l 1
- 56 200 l 1
- 91 235 l 1
- 256 71 l 1
- 421 235 l 5
+421 322 m 1
+ 456 287 l 1
+ 256 87 l 1
+ 56 287 l 1
+ 91 322 l 1
+ 256 158 l 1
+ 421 322 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: t
@@ -1065,15 +1060,14 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-121 365 m 1
- 156 400 l 1
- 356 200 l 1
- 156 0 l 1
- 121 35 l 1
- 285 200 l 1
- 121 365 l 1
+173 365 m 1
+ 208 400 l 1
+ 408 200 l 1
+ 208 0 l 1
+ 173 35 l 1
+ 337 200 l 1
+ 173 365 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: u
@@ -1084,15 +1078,14 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-56 200 m 25
- 256 400 l 25
- 291 365 l 29
- 127 200 l 25
- 291 35 l 25
- 256 0 l 25
- 56 200 l 25
+174 200 m 29
+ 374 400 l 25
+ 409 365 l 25
+ 245 200 l 25
+ 409 35 l 25
+ 374 0 l 25
+ 174 200 l 29
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: v
@@ -1103,15 +1096,14 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-56 200 m 1
- 256 400 l 25
- 456 200 l 1
- 421 165 l 25
- 256 329 l 1
- 91 165 l 25
- 56 200 l 1
+56 122 m 1
+ 256 322 l 29
+ 456 122 l 1
+ 421 87 l 25
+ 256 251 l 1
+ 91 87 l 25
+ 56 122 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: w
@@ -1122,20 +1114,19 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-421 235 m 1
- 456 200 l 1
- 256 0 l 1
- 56 200 l 1
- 91 235 l 1
- 256 71 l 1
- 421 235 l 1
-326 176 m 5
- 256 106 l 5
- 186 176 l 5
- 256 246 l 5
- 326 176 l 5
+421 322 m 1
+ 456 287 l 1
+ 256 87 l 1
+ 56 287 l 1
+ 91 322 l 1
+ 256 158 l 1
+ 421 322 l 1
+326 263 m 1
+ 256 193 l 1
+ 186 263 l 1
+ 256 333 l 1
+ 326 263 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: x
@@ -1159,7 +1150,6 @@ SplineSet
  285 200 l 1
  121 365 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: y
@@ -1170,44 +1160,42 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-302 200 m 1
- 232 130 l 1
- 162 200 l 1
- 232 270 l 1
- 302 200 l 1
-56 200 m 25
- 256 400 l 25
- 291 365 l 25
- 127 200 l 25
- 291 35 l 25
- 256 0 l 25
- 56 200 l 25
+420 200 m 1
+ 350 130 l 1
+ 280 200 l 1
+ 350 270 l 1
+ 420 200 l 1
+174 200 m 29
+ 374 400 l 25
+ 409 365 l 25
+ 245 200 l 25
+ 409 35 l 25
+ 374 0 l 25
+ 174 200 l 29
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: z
 Encoding: 122 122 51
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Fore
 SplineSet
-326 224 m 1
- 256 154 l 1
- 186 224 l 1
- 256 294 l 1
- 326 224 l 1
-56 200 m 1
- 256 400 l 25
- 456 200 l 1
- 421 165 l 25
- 256 329 l 1
- 91 165 l 25
- 56 200 l 1
+326 146 m 1
+ 256 76 l 1
+ 186 146 l 1
+ 256 216 l 1
+ 326 146 l 1
+56 122 m 1
+ 256 322 l 25
+ 456 122 l 1
+ 421 87 l 25
+ 256 251 l 1
+ 91 87 l 25
+ 56 122 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: space
