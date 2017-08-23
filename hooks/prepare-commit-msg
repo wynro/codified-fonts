@@ -3,4 +3,4 @@
 #
 # Inform the user of the TTF autocompilation
 
-sed -i '1 a\\n# All the SFD files have been compiled into corresponding TTF files\n# Ignore the "not staged for commit" indicator\n' "${1}"
+sed -i '1 a\\n# All the SFD files have been compiled into corresponding TTF files\n# Ignore the "not staged for commit" indicator\n#' "${1}"
