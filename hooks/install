@@ -4,8 +4,8 @@
 # Remove predetermined hooks, install the necessary ones
 
 # Remove predetermined hooks
-rm pre-commit.sample
-rm prepare-commit-msg.sample
+rm -f pre-commit.sample
+rm -f prepare-commit-msg.sample
 
 # Install the necessary ones
 cp pre-commit ../.git/hooks/pre-commit
