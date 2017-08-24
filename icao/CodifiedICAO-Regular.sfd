@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -835834854
-ModificationTime: 1503426574
+ModificationTime: 1503593011
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2967,7 +2967,7 @@ SplineSet
 -304 -20 m 2,0,1
  -318 -54 -318 -54 -345 -70.5 c 128,-1,2
  -372 -87 -372 -87 -401 -87 c 2,3,-1
- -475 -87 l 1,4,-1
+ -475 -87 l 5,4,-1
  171 1358 l 2,5,6
  196 1422 196 1422 263 1422 c 2,7,-1
  337 1422 l 1,8,-1
@@ -9343,14 +9343,14 @@ SplineSet
  -304 -20 l 2,10,11
 EndSplineSet
 Validated: 1
-Kerns2: 11 -37 "'kern' Horizontal Kerning 1 pairs 0" 37 -37 "'kern' Horizontal Kerning 1 pairs 0"
+Kerns2: 1 -274 "'kern' Horizontal Kerning 1 pairs 0" 11 -37 "'kern' Horizontal Kerning 1 pairs 0" 37 -37 "'kern' Horizontal Kerning 1 pairs 0"
 EndChar
 
 StartChar: hyphen
 Encoding: 45 45 54
 Width: 0
 GlyphClass: 2
-Flags: WO
+Flags: W
 LayerCount: 2
 EndChar
 
