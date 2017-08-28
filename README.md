@@ -32,7 +32,7 @@ The spacing, ligature, and some other glyph characteristics are currently just c
 
 - [x] Atbash (With alignment problems)
 - [x] Caesar (With alignment problems)
-- [ ] ROT-N (For all N, not only 13)
+- [x] ROT-N (For all N, not only 13)
 - [x] Morse
 - [x] NATO Phonetic Alphabet
 - [x] Flag Semaphore
