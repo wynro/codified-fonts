@@ -1,7 +1,7 @@
 #!/bin/sh
 # Author: Guillermo Robles
 #
-# Checks if there are modified fonts, and exports them before commiting
+# Checks if there are modified fonts, and exports them before commiting. Also check if an odt has been modified, and convert to pdf.
 
 # TODO: Change this script to use `git status --porcelain`
 
@@ -17,6 +17,18 @@ if git status -v | grep -q '^diff --git a\/\(.*\)\.sfd b\/\1\.sfd$'; then
             # Compile the sfd file into the corresponding ttf
             fontforge -c 'fontforge.open(argv[1]).generate(argv[2])' "${line}" "${newname}"
             # Add the newly compiled ttf to the stage
+            git add "${newname}"
+        done
+fi
+
+# The same, but for odt -> pdf
+if git status -v | grep -q '^diff --git a\/\(.*\)\.odt b\/\1\.odt$'; then
+    git status -v |
+        grep '^diff --git a\/\(.*\)\.odt b\/\1\.odt$' |
+        sed 's/diff --git a\/\(.*\) b\/\1/\1/' |
+        while read file; do
+            newname=$(echo ${file} | sed 's/.odt$/.pdf/')
+            which soffice &>/dev/null && soffice --headless --convert-to pdf --outdir $(dirname ${newname}) ${file}
             git add "${newname}"
         done
 fi
