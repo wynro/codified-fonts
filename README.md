@@ -40,6 +40,7 @@ The spacing, ligature, and some other glyph characteristics are currently just c
 - [x] International Maritime Signal Flag (in Black and White)
 - [x] Pigpen
 - [x] Templar
+- [x] Polybius Square/Tap Code
 
 And once I learn how to do colorized fonts
 - [ ] International Maritime Signal Flag
