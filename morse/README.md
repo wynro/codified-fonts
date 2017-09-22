@@ -1,3 +1,3 @@
 # Morse
 
-A tone-based alphabet. From [https://en.wikipedia.org/wiki/Morse_code](Morse Code ).
+A tone-based alphabet. From [Morse Code](https://en.wikipedia.org/wiki/Morse_code).
